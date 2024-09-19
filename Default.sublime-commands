@@ -9,6 +9,5 @@
       ]
     }
   }, 
-  { "caption": ":e Folder", "command": "prompt_open_folder" }, 
-  { "caption": ":e File", "command": "prompt_open_file" }, 
+  { "caption": ":e", "command": "prompt_open_folder" }, 
 ] 
