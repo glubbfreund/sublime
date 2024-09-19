@@ -122,4 +122,5 @@
     ],
     "index_files": true,
     "update_check": false,
+    "font_size": 11,
 }
