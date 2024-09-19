@@ -121,4 +121,5 @@
     [
     ],
     "index_files": true,
+    "update_check": false,
 }
