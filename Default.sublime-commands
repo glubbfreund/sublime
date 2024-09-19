@@ -9,6 +9,5 @@
       ]
     }
   }, 
-  // Commands for general improvements
-  { "caption": "Open Folder", "command": "prompt_open_folder" }, 
+  { "caption": ":e Folder", "command": "prompt_open_folder" }, 
 ] 
