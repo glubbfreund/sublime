@@ -1,0 +1,124 @@
+{
+    // Sets the colors used within the text area.
+    // The value "auto" will switch between the "light_color_scheme" and
+    // "dark_color_scheme" based on the operating system appearance.
+    "theme": "Adaptive.sublime-theme",
+
+    // Note that the font_face and font_size are overridden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    //"font_face": "UbuntuMono Nerd Font Mono",
+    //"font_size": 11,
+
+    // Valid options on all platforms are:
+    //  - "no_bold": Disables bold text
+    //  - "no_italic": Disables italic text
+    // Antialiasing options:
+    //  - "no_antialias": Disables antialiasing
+    //  - "gray_antialias": Uses grayscale antialiasing instead of subpixel
+    // Ligature options:
+    //  - "no_liga": Disables standard ligatures (OpenType liga feature)
+    //  - "no_clig": Disables contextual ligatures (OpenType clig feature)
+    //  - "no_calt": Disables contextual alternatives (OpenType calt feature)
+    //  - "dlig": Enables discretionary ligatures (OpenType dlig feature)
+    //  - "ss01": Enables OpenType stylistic set 1. Can enable sets 1 to 10
+    //        by changing the last two digits.
+    // Windows-only options:
+    //  - "directwrite": (default) Use DirectWrite for font rendering
+    //  - "gdi": Use GDI for font rendering
+    //  - "dwrite_cleartype_classic": Only applicable to "directwrite" mode,
+    //        should render fonts similar to traditional GDI
+    //  - "dwrite_cleartype_natural": Only applicable to "directwrite" mode,
+    //        should render fonts similar to ClearType "natural quality" GDI
+    //  - "subpixel_antialias": Force ClearType antialiasing when disabled
+    //        at system level
+    // Mac-only options:
+    //  - "no_round": Don't round glyph widths for monospace fonts when
+    //        "font_size" is small.
+    "font_options": ["no_italic"],
+
+    // Sets the colors used within the text area.
+    // The value "auto" will switch between the "light_color_scheme" and
+    // "dark_color_scheme" based on the operating system appearance.
+    "color_scheme": "Mariana.sublime-color-scheme",
+
+    // If enabled, will highlight any line with a caret
+    //"highlight_line": true,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Display indentation in the status bar
+    "show_indentation": false,
+
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // The path to the Sublime Merge executable. This should only be set if
+    // Sublime Merge is not installed in a standard location, such as when
+    // using a portable install. Set to 'null' to hide Sublime Merge
+    // integrations.
+    "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
+
+    // Enables hardware accelerated rendering. This moves rendering to your GPU,
+    // allowing for faster rendering at higher resolutions. Changing this
+    // setting requires an application restart to take effect.
+    // - "none": Performs CPU rendering.
+    // - "opengl": Uses OpenGL for rendering. Minimum required version is 4.1
+    //
+    // On Mac, this value is overridden in the platform specific settings.
+    "hardware_acceleration": "opengl",
+
+    // Exiting the application with hot_exit enabled will cause it to close
+    // immediately without prompting. Unsaved modifications and open files will
+    // be preserved and restored when next starting.
+    //
+    // Hot exit has different modes to choose from:
+    // - "always": Always perform a hot exit when the application exits. This
+    //             includes when the last window is closed on relevant
+    //             platforms.
+    // - "only_on_quit": Only perform a hot exit when the application is asked
+    //                   to exit, not when the last window is closed. This
+    //                   setting is only used on Windows and Linux.
+    // - "disabled": Disable hot exit.
+    "hot_exit": "disabled",
+
+    // Valid values are "system", "enabled" and "disabled"
+    "overlay_scroll_bars": "enabled",
+
+    // dont want to open my last session, got this setting from
+    // https://forum.sublimetext.com/t/disable-automatic-loading-of-last-session/4132
+    "remember_open_files": false, 
+
+    // Set to true to close windows as soon as the last file is closed, unless
+    // there's a folder open within the window.
+    // On Mac, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "close_windows_when_empty": false,
+
+    // When Vintage, the vi emulation package, is enabled
+    // (see ignored_packages, below), this setting controls if files are opened
+    // in command mode or insert mode by default
+    "vintage_start_in_command_mode": true,
+
+    // Yank commands can place the text in either an internal register, or in
+    // the system clipboard.
+    "vintage_use_clipboard": true,
+
+    // relative_line_numbers will draw each line number as the distance from
+    // the current line. Useful in conjunction with Vintage.
+    "relative_line_numbers": true,
+
+    // relative_line_numbers will draw each line number as the distance from
+    // the current line. Useful in conjunction with Vintage.
+    /*"relative_line_numbers": true,*/
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    "ignored_packages":
+    [
+    ],
+    "index_files": true,
+}

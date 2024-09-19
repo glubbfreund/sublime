@@ -1,0 +1,14 @@
+[
+  // My commands to improve vintage
+  { "caption": ":q", "command": "exit" }, 
+  { "caption": ":bd", "command": "close" }, 
+  { "caption": ":wq", "command": "multicommand", "args": {
+      "commands": [
+        { "command": "save" },
+        { "command": "exit" }
+      ]
+    }
+  }, 
+  // Commands for general improvements
+  { "caption": "Open Folder", "command": "prompt_open_folder" }, 
+] 

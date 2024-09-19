@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"LSP",
+		"LSP-PowerShellEditorServices",
+		"LSP-pyright",
+		"LSP-typescript",
+		"Multicommand",
+		"Package Control",
+		"PowerShell",
+	],
+}
