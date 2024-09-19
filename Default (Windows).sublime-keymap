@@ -1,4 +1,6 @@
 [
     // Open Folder Dialog
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    // Open Terminal
+    { "keys": ["ctrl+shift+t"], "command": "open_terminal" },
 ]
