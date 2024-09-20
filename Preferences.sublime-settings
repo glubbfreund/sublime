@@ -1,100 +1,43 @@
 {
-    // Sets the colors used within the text area.
-    // The value "auto" will switch between the "light_color_scheme" and
-    // "dark_color_scheme" based on the operating system appearance.
-    "theme": "Adaptive.sublime-theme",
-
-    // Note that the font_face and font_size are overridden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
-    "font_face": "UbuntuMono Nerd Font Mono",
-    "font_size": 10.5,
-
-    // Valid options on all platforms are:
-    //  - "no_bold": Disables bold text
-    //  - "no_italic": Disables italic text
-    // Antialiasing options:
-    //  - "no_antialias": Disables antialiasing
-    //  - "gray_antialias": Uses grayscale antialiasing instead of subpixel
-    // Ligature options:
-    //  - "no_liga": Disables standard ligatures (OpenType liga feature)
-    //  - "no_clig": Disables contextual ligatures (OpenType clig feature)
-    //  - "no_calt": Disables contextual alternatives (OpenType calt feature)
-    //  - "dlig": Enables discretionary ligatures (OpenType dlig feature)
-    //  - "ss01": Enables OpenType stylistic set 1. Can enable sets 1 to 10
-    //        by changing the last two digits.
-    // Windows-only options:
-    //  - "directwrite": (default) Use DirectWrite for font rendering
-    //  - "gdi": Use GDI for font rendering
-    //  - "dwrite_cleartype_classic": Only applicable to "directwrite" mode,
-    //        should render fonts similar to traditional GDI
-    //  - "dwrite_cleartype_natural": Only applicable to "directwrite" mode,
-    //        should render fonts similar to ClearType "natural quality" GDI
-    //  - "subpixel_antialias": Force ClearType antialiasing when disabled
-    //        at system level
-    // Mac-only options:
-    //  - "no_round": Don't round glyph widths for monospace fonts when
-    //        "font_size" is small.
-    "font_options": ["no_italic"],
-
-    // Sets the colors used within the text area.
-    // The value "auto" will switch between the "light_color_scheme" and
-    // "dark_color_scheme" based on the operating system appearance.
-    "color_scheme": "Mariana.sublime-color-scheme",
-
-    // Controls the "color_scheme" when set to "auto"
-    "dark_theme": "Default.sublime-theme",
-    "light_theme": "Default.sublime-theme",
-
-    // If enabled, will highlight any line with a caret
-    //"highlight_line": true,
-
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
-
-    // Display indentation in the status bar
-    "show_indentation": false,
-
-    // Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
-
-    // The path to the Sublime Merge executable. This should only be set if
-    // Sublime Merge is not installed in a standard location, such as when
-    // using a portable install. Set to 'null' to hide Sublime Merge
-    // integrations.
-    "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
-
-    // Enables hardware accelerated rendering. This moves rendering to your GPU,
-    // allowing for faster rendering at higher resolutions. Changing this
-    // setting requires an application restart to take effect.
-    // - "none": Performs CPU rendering.
-    // - "opengl": Uses OpenGL for rendering. Minimum required version is 4.1
     //
-    // On Mac, this value is overridden in the platform specific settings.
-    "hardware_acceleration": "opengl",
-
-    // Valid values are "system", "enabled" and "disabled"
+    // Theme and Font Settings 
+    //
+    "theme": "Adaptive.sublime-theme",
+    "dark_color_scheme": "Mariana.sublime-color-scheme",
+    "light_color_scheme": "Celeste.sublime-color-scheme",
     "overlay_scroll_bars": "enabled",
 
-    // dont want to open my last session, got this setting from
-    // https://forum.sublimetext.com/t/disable-automatic-loading-of-last-session/4132
-    "remember_open_files": false, 
+    //
+    // Font Settings
+    //
+    "font_face": "Iosevka Term SS09",
+    "font_size": 10,
+    "font_options": ["no_italic"],
 
-    // relative_line_numbers will draw each line number as the distance from
-    // the current line. Useful in conjunction with Vintage.
+    //
+    // Editor Formatting
+    "translate_tabs_to_spaces": true,
+    "show_indentation": false,
+    "ensure_newline_at_eof_on_save": true,
     "relative_line_numbers": true,
 
-    // Disable updates for ST
+    //
+    // System Settings
+    //
+    "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
+    "hardware_acceleration": "opengl",
     "update_check": false,
 
-    // Automatically set by neovintageous 
+    //
+    // File Handling
+    //
+    "remember_open_files": false, 
+
+    //
+    // Neovintageous specific
+    //
     "neovintageous_build_version": 13200,
-
-    // Use sys clipboard for neovintageous
     "vintageous_use_sys_clipboard": true,
-
-    // jj to switch to escape mode vor vintageous
-    "vintageous_i_escape_jj": true
+    "vintageous_i_escape_jj": true,
+    "vintageous_use_ctrl_keys": false,
 }
