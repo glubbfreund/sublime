@@ -18,6 +18,7 @@
 
     //
     // Editor Formatting
+    //
     "translate_tabs_to_spaces": true,
     "show_indentation": false,
     "ensure_newline_at_eof_on_save": true,
