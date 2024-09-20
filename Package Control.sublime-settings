@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"LSP",
+		"LSP-json",
 		"LSP-PowerShellEditorServices",
 		"LSP-pyright",
 		"LSP-typescript",
