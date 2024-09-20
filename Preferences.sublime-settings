@@ -3,6 +3,7 @@
     // Theme and Font Settings 
     //
     "theme": "Adaptive.sublime-theme",
+    "color_scheme": "Adaptify Dark.sublime-color-scheme",
     "dark_color_scheme": "Mariana.sublime-color-scheme",
     "light_color_scheme": "Celeste.sublime-color-scheme",
     "overlay_scroll_bars": "enabled",
@@ -21,8 +22,11 @@
     //
     "translate_tabs_to_spaces": true,
     "show_indentation": false,
-    "ensure_newline_at_eof_on_save": true,
+    "indent_to_bracket": false,
     "relative_line_numbers": true,
+    "highlight_line": true,
+    "trim_trailing_white_space_on_save": "all",
+    "ensure_newline_at_eof_on_save": true,
 
     //
     // System Settings
