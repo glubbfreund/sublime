@@ -30,11 +30,16 @@
     "hardware_acceleration": "opengl",
     "update_check": false,
     "index_files": true,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
 
     //
     // File Handling
     //
     "remember_open_files": false, 
+    "hot_exit": false,
 
     //
     // Neovintageous specific
