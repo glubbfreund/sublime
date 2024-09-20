@@ -1,13 +1,13 @@
 [
   // My commands to improve vintage
-  { "caption": ":q", "command": "exit" }, 
-  { "caption": ":bd", "command": "close" }, 
-  { "caption": ":wq", "command": "multicommand", "args": {
-      "commands": [
-        { "command": "save" },
-        { "command": "exit" }
-      ]
-    }
-  }, 
-  { "caption": ":e", "command": "prompt_open_folder" }, 
+  //{ "caption": ":q", "command": "exit" }, 
+  //{ "caption": ":bd", "command": "close" }, 
+  //{ "caption": ":wq", "command": "multicommand", "args": {
+  //    "commands": [
+  //      { "command": "save" },
+  //      { "command": "exit" }
+  //    ]
+  //  }
+  //}, 
+  { "caption": "Open Folder", "command": "prompt_open_folder" }, 
 ] 

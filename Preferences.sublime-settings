@@ -119,8 +119,11 @@
     // a restart may be required if the package contains plugins.
     "ignored_packages":
     [
+        "Vintage",
     ],
     "index_files": true,
     "update_check": false,
-    "font_size": 11,
+    "neovintageous_build_version": 13200,
+    "dark_theme": "Default.sublime-theme",
+    "light_theme": "Default.sublime-theme",
 }
