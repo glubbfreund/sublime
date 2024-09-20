@@ -3,4 +3,11 @@
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     // Open Terminal
     { "keys": ["ctrl+shift+t"], "command": "open_terminal" },
+
+    // German Keyboards cant handle some keybindings
+    // thats why we have the following
+    { "keys": ["ctrl+shift+ö"], "command": "fold" },
+    { "keys": ["ctrl+shift+ö"], "command": "unfold" },
+    { "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true  } },
 ]
