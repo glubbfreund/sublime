@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"LSP",
 		"LSP-PowerShellEditorServices",
 		"LSP-pyright",
