@@ -1,11 +1,17 @@
 [
+    //
     // Open Folder Dialog
+    //
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+
+    //
     // Open Terminal
+    //
     { "keys": ["ctrl+shift+t"], "command": "open_terminal" },
 
-    // German Keyboards cant handle some keybindings
-    // thats why we have the following
+    //
+    // Customization for german keyboard
+    //
     { "keys": ["ctrl+alt+shift+9"], "command": "fold"   },
     { "keys": ["ctrl+alt+shift+8"], "command": "unfold" },
     { "keys": ["ctrl+shift+7"],     "command": "toggle_comment", "args": { "block": false } },
