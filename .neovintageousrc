@@ -1,0 +1,3 @@
+" A double quote character starts a comment.
+vnoremap < <gv
+vnoremap > >gv

@@ -8,8 +8,8 @@
     // specific settings file, for example, "Preferences (Linux).sublime-settings".
     // Because of this, setting them here will have no effect: you must set them
     // in your User File Preferences.
-    //"font_face": "UbuntuMono Nerd Font Mono",
-    //"font_size": 11,
+    "font_face": "UbuntuMono Nerd Font Mono",
+    "font_size": 10.5,
 
     // Valid options on all platforms are:
     //  - "no_bold": Disables bold text
@@ -43,6 +43,10 @@
     // "dark_color_scheme" based on the operating system appearance.
     "color_scheme": "Mariana.sublime-color-scheme",
 
+    // Controls the "color_scheme" when set to "auto"
+    "dark_theme": "Default.sublime-theme",
+    "light_theme": "Default.sublime-theme",
+
     // If enabled, will highlight any line with a caret
     //"highlight_line": true,
 
@@ -71,20 +75,6 @@
     // On Mac, this value is overridden in the platform specific settings.
     "hardware_acceleration": "opengl",
 
-    // Exiting the application with hot_exit enabled will cause it to close
-    // immediately without prompting. Unsaved modifications and open files will
-    // be preserved and restored when next starting.
-    //
-    // Hot exit has different modes to choose from:
-    // - "always": Always perform a hot exit when the application exits. This
-    //             includes when the last window is closed on relevant
-    //             platforms.
-    // - "only_on_quit": Only perform a hot exit when the application is asked
-    //                   to exit, not when the last window is closed. This
-    //                   setting is only used on Windows and Linux.
-    // - "disabled": Disable hot exit.
-    "hot_exit": "disabled",
-
     // Valid values are "system", "enabled" and "disabled"
     "overlay_scroll_bars": "enabled",
 
@@ -92,38 +82,19 @@
     // https://forum.sublimetext.com/t/disable-automatic-loading-of-last-session/4132
     "remember_open_files": false, 
 
-    // Set to true to close windows as soon as the last file is closed, unless
-    // there's a folder open within the window.
-    // On Mac, this value is overridden in the platform specific settings, so
-    // you'll need to place this line in your user settings to override it.
-    "close_windows_when_empty": false,
-
-    // When Vintage, the vi emulation package, is enabled
-    // (see ignored_packages, below), this setting controls if files are opened
-    // in command mode or insert mode by default
-    "vintage_start_in_command_mode": true,
-
-    // Yank commands can place the text in either an internal register, or in
-    // the system clipboard.
-    "vintage_use_clipboard": true,
-
     // relative_line_numbers will draw each line number as the distance from
     // the current line. Useful in conjunction with Vintage.
     "relative_line_numbers": true,
 
-    // relative_line_numbers will draw each line number as the distance from
-    // the current line. Useful in conjunction with Vintage.
-    /*"relative_line_numbers": true,*/
-
-    // List any packages to ignore here. When removing entries from this list,
-    // a restart may be required if the package contains plugins.
-    "ignored_packages":
-    [
-        "Vintage",
-    ],
-    "index_files": true,
+    // Disable updates for ST
     "update_check": false,
+
+    // Automatically set by neovintageous 
     "neovintageous_build_version": 13200,
-    "dark_theme": "Default.sublime-theme",
-    "light_theme": "Default.sublime-theme",
+
+    // Use sys clipboard for neovintageous
+    "vintageous_use_sys_clipboard": true,
+
+    // jj to switch to escape mode vor vintageous
+    "vintageous_i_escape_jj": true
 }
