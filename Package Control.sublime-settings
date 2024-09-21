@@ -5,11 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"LSP",
 		"LSP-PowerShellEditorServices",
 		"LSP-pyright",
 		"LSP-typescript",
 		"NeoVintageous",
+		"NeoVintageousHighlightLine",
+		"Origami",
 		"Package Control",
 		"PowerShell",
 		"Theme - Adaptify",
