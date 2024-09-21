@@ -5,11 +5,6 @@
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
 
     //
-    // Open Terminal
-    //
-    { "keys": ["ctrl+shift+t"], "command": "toggle_terminus_panel" },
-
-    //
     // Customization for german keyboard
     //
     { "keys": ["ctrl+alt+shift+9"], "command": "fold"   },
