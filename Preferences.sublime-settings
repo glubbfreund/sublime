@@ -32,7 +32,6 @@
     // System Settings
     //
     "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
-    "hardware_acceleration": "opengl",
     "update_check": false,
     "index_files": true,
     "ignored_packages":

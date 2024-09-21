@@ -7,7 +7,7 @@
     //
     // Open Terminal
     //
-    { "keys": ["ctrl+shift+t"], "command": "open_terminal" },
+    { "keys": ["ctrl+shift+t"], "command": "toggle_terminus_panel" },
 
     //
     // Customization for german keyboard
