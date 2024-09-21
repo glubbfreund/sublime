@@ -1,7 +1,0 @@
-{
-    //
-    // Terminal specific settings
-    //
-    "terminal": "powershell.exe",
-    "parameters": ["-NoLogo"],
-}
