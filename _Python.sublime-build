@@ -1,27 +1,6 @@
+
 {
-        "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-        "selector": "source.python",
-    
-        "env": {"PYTHONIOENCODING": "utf-8"},
-    
-        "windows": {
-            "cmd": ["python", "-u", "$file"],
-        },
-    
-        "variants":
-        [
-            {
-                "name": "Syntax Check",
-                "cmd": ["python3", "-m", "py_compile", "$file"],
-    
-                "windows": {
-                    "cmd": ["python", "-m", "py_compile", "$file"],
-                }
-            }
-        ]
-    }
-    "target": "toggle_terminus_panel",
-    "cmd": ["python", "$file"],
-    "working_dir": "${file_path}",
-    "auto_close": false
+    "cmd": ["python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
 }
