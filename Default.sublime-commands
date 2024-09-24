@@ -3,4 +3,10 @@
   // Command to open a folder
   //
   { "caption": "Open Folder", "command": "prompt_open_folder" }, 
+
+  //
+  // My commands to improve vintage
+  //
+  { "caption": ":q", "command": "exit" },
+  { "caption": ":bd", "command": "close" },
 ] 

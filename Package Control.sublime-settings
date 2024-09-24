@@ -7,11 +7,10 @@
 	[
 		"A File Icon",
 		"LSP",
+		"LSP-gopls",
 		"LSP-PowerShellEditorServices",
 		"LSP-pylsp",
 		"LSP-typescript",
-		"NeoVintageous",
-		"NeoVintageousHighlightLine",
 		"Package Control",
 		"PowerShell",
 		"Theme - Adaptify",

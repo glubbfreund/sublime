@@ -34,10 +34,7 @@
     "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
     "update_check": false,
     "index_files": true,
-    "ignored_packages":
-    [
-        "Vintage",
-    ],
+    "ignored_packages": [],
 
     //
     // File Handling
@@ -47,11 +44,8 @@
     "always_prompt_for_file_reload": false,
 
     //
-    // Neovintageous specific
+    // Vintage Settings
     //
-    "neovintageous_build_version": 13200,
-    "vintageous_use_sys_clipboard": true,
-    "vintageous_i_escape_jj": true,
-    "vintageous_use_ctrl_keys": false,
-    "vintageous_use_super_keys": false,
+    "vintage_start_in_command_mode": true,
+    "vintage_use_clipboard": true
 }
