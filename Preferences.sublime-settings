@@ -44,6 +44,7 @@
     //
     "remember_open_files": false, 
     "hot_exit": false,
+    "always_prompt_for_file_reload": false,
 
     //
     // Neovintageous specific
