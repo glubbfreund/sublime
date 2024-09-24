@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+    "debugger_configurations": [
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${project_path}/main.py",
+            "python": "C:\\Program Files\\Python312\\python.exe",
+        }
+    ],
+    ]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>PY_DEBUG</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.json</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Add Debugger configuration</description>
+</snippet>
