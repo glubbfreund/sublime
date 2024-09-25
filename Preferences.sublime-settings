@@ -35,7 +35,7 @@
     "index_files": true,
     "ignored_packages":
     [
-        "Vintage",
+        "Vintage"
     ],
 
     //
@@ -55,6 +55,5 @@
     "vintageous_handle_keys": {
         "<C-P>": false,
         "<C-L>": false,
-        "<C-D>": false
     }
 }
