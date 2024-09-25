@@ -21,7 +21,6 @@
     // Editor Formatting
     //
     "translate_tabs_to_spaces": true,
-    "show_indentation": false,
     "indent_to_bracket": true,
     "relative_line_numbers": true,
     "highlight_line": true,
@@ -34,7 +33,10 @@
     "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
     "update_check": false,
     "index_files": true,
-    "ignored_packages": [],
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
 
     //
     // File Handling
@@ -44,8 +46,15 @@
     "always_prompt_for_file_reload": false,
 
     //
-    // Vintage Settings
+    // Neovintageous specific
     //
-    "vintage_start_in_command_mode": true,
-    "vintage_use_clipboard": true
+    "vintageous_use_sys_clipboard": true,
+    "vintageous_i_escape_jj": true,
+    "vintageous_use_ctrl_keys": true,
+    "vintageous_lsp_save": true,
+    "vintageous_handle_keys": {
+        "<C-P>": false,
+        "<C-L>": false,
+        "<C-D>": false
+    }
 }
