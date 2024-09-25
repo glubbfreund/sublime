@@ -54,7 +54,10 @@
     "vintageous_use_ctrl_keys": true,
     "vintageous_lsp_save": true,
     "vintageous_handle_keys": {
-        "<C-P>": false,
-        "<C-L>": false,
+        "<C-p>": false,
+        "<C-shift-p>": false,
+        "i_<C-shift-l>": false,
+        "i_<C-d>": false,
+        "i_<C-k>": false,
     },
 }
