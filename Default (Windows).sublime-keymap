@@ -1,8 +1,9 @@
 [
     //
-    // Open Folder Dialog
+    // General
     //
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+k", "ctrl+f"], "command": "lsp_format_document" },
 
     //
     // Customization for german keyboard
