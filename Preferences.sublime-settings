@@ -15,7 +15,7 @@
     //
     "font_face": "JetBrainsMono NF",
     "font_size": 9,
-    "font_options": ["no_italic"],
+    "font_options": ["no_italic", "no_liga", "no_clig", "no_calt"],
 
     //
     // Editor Formatting
@@ -33,6 +33,7 @@
     "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
     "update_check": false,
     "always_prompt_for_file_reload": false,
+    "remember_open_files": false,
     "index_files": true,
     "ignored_packages":
     [
@@ -46,7 +47,6 @@
     "vintageous_use_sys_clipboard": true,
     "vintageous_i_escape_jj": true,
     "vintageous_use_ctrl_keys": true,
-    "vintageous_lsp_save": true,
     "vintageous_handle_keys": {
         "<C-p>": false,
         "<C-shift-p>": false,
