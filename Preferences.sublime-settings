@@ -32,18 +32,12 @@
     //
     "sublime_merge_path": "../sublime_merge_portable/sublime_merge.exe",
     "update_check": false,
+    "always_prompt_for_file_reload": false,
     "index_files": true,
     "ignored_packages":
     [
         "Vintage",
     ],
-
-    //
-    // File Handling
-    //
-    "remember_open_files": false, 
-    "hot_exit": false,
-    "always_prompt_for_file_reload": false,
 
     //
     // Neovintageous specific
