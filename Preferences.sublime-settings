@@ -36,6 +36,7 @@
     "update_check": false,
     "always_prompt_for_file_reload": false,
     "remember_open_files": false,
+    "hot_exit": false,
     "index_files": true,
     "ignored_packages":
     [
