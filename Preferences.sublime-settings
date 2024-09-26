@@ -49,7 +49,6 @@
     "vintageous_use_sys_clipboard": true,
     "vintageous_i_escape_jj": true,
     "vintageous_use_ctrl_keys": true,
-    "vintageous_lsp_save": true,
     "vintageous_handle_keys": {
         "<C-p>": false,
         "<C-shift-p>": false,
