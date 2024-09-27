@@ -1,7 +1,9 @@
 [
     //
-    // Command to open a folder
+    // Folder related commands
     //
-    { "caption": "Open Folder",
+    { "caption": "Folder: Open...",
       "command": "prompt_open_folder" },
+    { "caption": "Folder: Close",
+      "command": "close_folder_list" },
 ]

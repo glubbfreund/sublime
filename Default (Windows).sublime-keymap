@@ -2,7 +2,8 @@
     //
     // General
     //
-    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+k", "ctrl+r"], "command": "close_folder_list" },
     { "keys": ["ctrl+k", "ctrl+f"], "command": "lsp_format_document" },
 
     //
